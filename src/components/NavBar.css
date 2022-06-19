@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    height: 30px;
+    padding:10px;
+    
+}
+
+.logo{
+    justify-content: left;
+    
+    
+}
+
+.carro{
+    font-size:x-large;
+    padding:5px;
+    color:rgb(5, 48, 5);
+}
+
