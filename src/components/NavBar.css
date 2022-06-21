@@ -2,20 +2,15 @@
     display: flex;
     justify-content: space-around;
     background-color: green;
-    height: 30px;
+    height: 60px;
     padding:10px;
     
 }
 
 .logo{
     justify-content: left;
+    height: 40px;
     
     
-}
-
-.carro{
-    font-size:x-large;
-    padding:5px;
-    color:rgb(5, 48, 5);
 }
 
