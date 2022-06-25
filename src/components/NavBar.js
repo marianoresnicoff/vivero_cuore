@@ -9,10 +9,10 @@ function NavBar() {
   return (
     <header className = "navbar">
           <img src={logo} className = "logo" />
-          <button>Productos</button>
-          <button>Servicios</button>
-          <button>FAQ</button>
-          <button>Contactos</button>
+          <button className='botonNavbar'>Productos</button>
+          <button className='botonNavbar'>Servicios</button>
+          <button className='botonNavbar'>FAQ</button>
+          <button className='botonNavbar'>Contactos</button>
           <CartWidget />
           
       </header>    

@@ -1,35 +1,35 @@
-/*import './Body.css';*/
 import logo from '../assets/logo.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Card from './Card';
 
-function Body() {
+const cant = 5;
+
+function ItemListContainer() {
   return (
     
-
 <div className="container">
     <h3>Catalogo de Productos</h3>
     <div className="row">
         <div className="col-md-4">
-        <Card />
+        <Card stock={cant}/>
         </div>
   <     div className="col-md-4">
-        <Card />
+        <Card stock={cant}/>
         </div>
   <     div className="col-md-4">
-        <Card />
+        <Card stock={cant}/>
         </div>
     </div>
     
     <div className="row">
         <div className="col-md-4">
-        <Card />
+        <Card stock={cant}/>
         </div>
   <     div className="col-md-4">
-        <Card />
+        <Card stock={cant}/>
         </div>
   <     div className="col-md-4">
-        <Card />
+        <Card stock={cant}/>
         </div>
     </div>
 
@@ -39,4 +39,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default ItemListContainer;

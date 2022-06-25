@@ -3,3 +3,9 @@
     margin: 20px;
     
 }
+
+.botonCompra{
+    border: none;
+    display:inline-flex;
+   
+}
