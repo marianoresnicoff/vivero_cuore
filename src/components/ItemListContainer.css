@@ -1,8 +1,10 @@
 .card-body{
-    height: 10cm;
+    height: auto;
+    
    
 }
 
 .container{
-    background-color: darkgreen;
+    background-color: olivedrab;
+    justify-items: auto;
 }

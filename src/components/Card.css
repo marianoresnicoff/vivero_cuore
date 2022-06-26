@@ -1,11 +1,12 @@
 .card{
     width: 5cm;
-    margin: 20px;
+    margin: 40px;
     
 }
 
 .botonCompra{
     border: none;
     display:inline-flex;
+    background-color: rgb(218, 234, 184);
    
 }
