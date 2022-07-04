@@ -3,59 +3,89 @@
     "nombre": "planta",
     "precio": 900,
     "stock": 10,
-    "imagen": "./assets/imagenes/interior/hoya/hoya1.jpg"
+    "imagen": "../imagenes/interior3.jfif",
+    "altura": "100",
+    "ambiente": "interior",
+    "riego": "poco"
 },{
     "item": 2,
     "nombre": "planta",
     "precio": 750,
     "stock": 4,
-    "imagen": "./imagenes/interior/hoya/hoya3.jpg"
+    "imagen": "../imagenes/interior1.jfif",
+    "altura": "80",
+    "ambiente": "exterior",
+    "riego": "moderado"
 },{
     "item": 3,
     "nombre": "planta",
     "precio": 4500,
     "stock": 2,
-    "imagen": "./imagenes/interior/hoya/hoya3.jpg"
+    "imagen": "../imagenes/interior2.jfif",
+    "altura": "120",
+    "ambiente": "interior",
+    "riego": "moderado"
 },{
     "item": 4,
     "nombre": "planta",
     "precio": 950,
     "stock": 7,
-    "imagen": "./imagenes/interior/hoya/hoya2.jpg"
+    "imagen": "./imagenes/aromatica3.jfif",
+    "altura": "70",
+    "ambiente": "exterior",
+    "riego": "abundante"
 },{
     "item": 5,
     "nombre": "maceta",
     "precio": 1950,
     "stock": 8,
-    "imagen": "./imagenes/macetas/macetaPintada3.jfif"
+    "imagen": "../imagenes/macetas/macetaPintada3.jfif",
+    "altura": "90",
+    "ambiente": "exterior",
+    "riego": "poco"
 },{
     "item": 6,
     "nombre": "maceta",
     "precio": 1500,
     "stock": 10,
-    "imagen": "./imagenes/macetas/macetaPintada4.jfif"
+    "imagen": "../imagenes/macetas/macetaPintada4.jfif",
+    "altura": "100",
+    "ambiente": "exterior",
+    "riego": "moderado"
 },{
     "item": 7,
     "nombre": "maceta",
     "precio": 2000,
     "stock": 12,
-    "imagen": "./imagenes/macetas/macetaPintada5.jfif"
+    "imagen": "./imagenes/macetas/macetaPintada5.jfif",
+    "altura": "100",
+    "ambiente": "interior",
+    "riego": "poco"
 },{
     "item": 8,
     "nombre": "maceta",
     "precio": 2000,
     "stock": 1,
-    "imagen": "./imagenes/macetas/macetaPintada5.jfif"
+    "imagen": "./imagenes/macetas/cactus.jpg",
+    "altura": "100",
+    "ambiente": "interior",
+    "riego": "poco"
 },{
     "item": 9,
     "nombre": "maceta",
     "precio": 1800,
     "stock": 5,
-    "imagen": "./imagenes/macetas/macetaPintada6.jfif"
+    "imagen": "./imagenes/macetas/macetaPintada6.jfif",
+    "altura": "100",
+    "ambiente": "interior",
+    "riego": "poco"
 },{
     "item": 10,
     "nombre": "planta",
     "precio": 1000,
     "stock": 5,
-    "imagen": "./imagenes/interior/hoya/hoya3.jpg"
+    "imagen": "./imagenes/interior/hoya/hoya3.jpg",
+    "altura": "100",
+    "ambiente": "interior",
+    "riego": "poco"
 }]
