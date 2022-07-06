@@ -28,7 +28,7 @@ function ItemListContainer() {
 
        
         <div className="container">
-        <h3>Catalogo de Productos</h3>
+        <h3>Bienvenidos al Vivero</h3>
           <div className="row">
           {info.map(i => <Card item={i.item} name={i.nombre} price={i.precio} 
           stock={i.stock} img={i.imagen} />)}
@@ -45,15 +45,6 @@ function ItemListContainer() {
 export default ItemListContainer;
 
 /*
-
-
-
-
-
-
-
-
-
 
 
  (info) => <ItemList item={info.item} name={info.nombre} price={info.precio} 

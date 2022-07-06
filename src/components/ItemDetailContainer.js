@@ -2,43 +2,40 @@ import './ItemDetailContainer.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ItemDetail from './ItemDetail';
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+//import { useParams } from 'react-router-dom';
 
-
-function ItemDetailContainer() {
-
-  const [informacion, SetProductos] = useState([])   
-  console.log(useParams()); 
-  const { iditem } = useParams;
   
-  
-  useEffect(() => {
+function ItemDetailContainer(){
+    const [info, SetInfo] = useState([]) 
 
-      setTimeout(
-      () =>{
-      fetch('productos.json')
-            .then((resp) => resp.json())
-            .then((productos)  => SetProductos(productos)) 
-      },1000
-  )
-  }, [])
+    useEffect (() => {
+        setTimeout(() => {
+            fetch("productos.json")
+            .then((response) => response.json())
+            .then((data)  => SetInfo(data)) 
+      }, 1000)
+    
+    }, [])
 
-  console.log(informacion);
+    //console.log(data)      
+     console.log(info)  
 
-      return (
+return (
     
 <div className="container">
    
     <h3>Detalle del Producto</h3>
-      <div className="row">
-      {informacion.map(i => <ItemDetail name={i.nombre} price={i.precio} 
-      img={i.imagen} heigh={i.altura} enveiroment={i.ambiente} water={i.riego} />)}
-      </div>
-    
+   
 </div>
 
-      
+
   );
 }
 
 export default ItemDetailContainer;
+
+/*
+{cardsFetch.map(i => <ItemDetail name={i.nombre} price={i.precio} 
+    img={i.imagen} heigh={i.altura} enveiroment={i.ambiente} water={i.riego} />)}
+
+    */
